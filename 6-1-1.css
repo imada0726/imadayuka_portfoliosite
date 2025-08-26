@@ -1,0 +1,33 @@
+
+.slider {
+	position: absolute;
+	width: 65%;
+	top: 90px;
+	right: 50px;
+	
+	z-index: 1;
+	/*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
+	height: 100vh;/*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+}
+/*　背景画像設定　*/
+
+.slider-item01 {
+    background:url(/assets/images/パッケージデザイン1　長め2.jpg);
+}
+
+.slider-item02 {
+    background:url(/assets/images/写真集4.jpg);
+}
+
+.slider-item03 {
+    background:url(/assets/images/クトゥルフwebsite3.png);
+}
+
+.slider-item {
+    width: 100%;/*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+    height:70vh;/*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+    background-repeat: no-repeat;/*背景画像をリピートしない*/
+    background-position: center;/*背景画像の位置を中央に*/
+    background-size: cover;/*背景画像が.slider-item全体を覆い表示*/
+}
+
